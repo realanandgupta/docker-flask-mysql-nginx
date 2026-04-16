@@ -13,7 +13,7 @@ def connect_db():
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Hello from Dockerized Flask API!"})
+    return jsonify({"message": "CI/CD working 🔥"})
 
 @app.route('/db')
 def db_check():
